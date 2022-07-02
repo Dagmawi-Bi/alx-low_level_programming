@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
- * main -> this is a function to print char
- * return : success always 0
+ * main - this is a function to print out "\"Programming is like building a multilingual puzzle"
+ * @s : the sentence to be printed
+ * return : s
  */
 int main(void)
 {
