@@ -1,10 +1,10 @@
 # include<stdio.h>
 /**
- * main -> prints "with proper grammar, but the outcome is a piece of art,"
- * return: success always 0
+ * main1 - prints "with proper grammar, but the outcome is a piece of art,"
+ * return:success always 0
  */
-int main(void)
+int main1(void)
 {
-	printf ("with proper grammar, but the outcome is a piece of art,\n");
-	return(0);
+printf("with proper grammar, but the outcome is a piece of art,\n");
+return (0);
 }
