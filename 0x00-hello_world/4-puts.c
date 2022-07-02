@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - this is a function to print out "\"Programming"
- * return: success always 0
+ * Return: success always
  */
 int main(void)
 {
