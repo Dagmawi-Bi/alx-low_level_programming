@@ -8,12 +8,12 @@ void jack_bauer(void)
 int q, w;
 for (q = 0; q < 24; q++)
 {
-for (w = 0; w <= 60; w++)
+for (w = 0; w < 60; w++)
 {
 if (q < 10)
 {
 _putchar (0);
-_putchar (q + '0');
+_putchar (q);
 }
 else if (q >= 10)
 {
@@ -24,7 +24,7 @@ if (w < 10)
 {
 _putchar (':');
 _putchar (0);
-_putchar (w + 0);
+_putchar (w);
 }
 else if (w >= 10)
 {
