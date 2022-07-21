@@ -11,7 +11,7 @@ int is_prime_number(int n)
 return (c_p(n, 1));
 }
 /**
- *c_k - check prime number
+ *c_p - check prime number
  *@n: integer parameter
  *@i: iterater
  *Return: 0 or 1
