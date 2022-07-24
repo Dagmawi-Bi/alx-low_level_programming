@@ -5,7 +5,7 @@
  * @argv: an arrey of a command listed
  * Return: value 0
  */
-int main(int argc, char argv[])
+int main(int argc, char *argv[])
 {
 for (int i = 0; i < argc; i++)
 {
