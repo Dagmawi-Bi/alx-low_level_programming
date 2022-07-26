@@ -19,12 +19,14 @@ while (s2[q])
 q++;
 r = p + q;
 s = (char *)malloc(r *sizeof(char) + 1);
+if (s == NULL)
+return (NULL);
 q = 0;
 while (t < r)
 {
-if (t <= p)
+if (t < p)
 s[t] = s1[t];
-if (t > p)
+if (t >= p)
 {
 s[t] = s2[q];
 q++;
