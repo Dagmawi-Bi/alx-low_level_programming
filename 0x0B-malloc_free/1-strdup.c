@@ -12,7 +12,7 @@ if (str == NULL)
 return (NULL);
 while (str[p])
 p++;
-s = (char *)malloc(p * sizeof(char) + 1);
+s = (char *)malloc(p *sizeof(char) + 1);
 if (s == NULL)
 return (NULL);
 while (q < p)
