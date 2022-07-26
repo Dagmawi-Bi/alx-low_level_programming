@@ -17,19 +17,17 @@ if (a == NULL)
 free(a);
 return (NULL);
 }
-else if (a != NULL)
-free(a);
 for (i = 0; i <= height; i++)
 {
 a[i] = malloc(width * sizeof(int));
 if (a[i] == NULL)
 {
-for (j = i; j > 0; j--)
+for (j = i; j >= 0; j--)
 {
 free(a[j]);
+}
 free(a);
 return (NULL);
-}
 }
 }
 for (k = 0; k < height; k++)
