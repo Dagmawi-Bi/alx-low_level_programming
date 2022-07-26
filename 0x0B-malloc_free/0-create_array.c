@@ -15,7 +15,7 @@ char *j;
 if (size == 0)
 return (NULL);
 j = (char *)malloc(size * sizeof(char));
-if (size == NULL)
+if (j == NULL)
 return (NULL);
 for (i = 0; i < size; i++)
 j[i] = c;
