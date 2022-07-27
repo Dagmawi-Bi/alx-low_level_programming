@@ -6,7 +6,7 @@
  *@argv: char parameter
  *Return:value 1 or 0 dependening on conditions
  */
-int main(int argc, char argv[])
+int main(int argc, char *argv[])
 {
 int result, num1, num2;
 if (argc != 3)
