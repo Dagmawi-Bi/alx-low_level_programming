@@ -13,15 +13,13 @@ _putchar ('\n');
 }
 else
 {
-for (r = 1; r <= n; r++)
+for (r = 0; r < n; r++)
 {
-for (c = 1; c <= n; c++)
+for (c = 0; c < n; c++)
 {
-if (c == r)
-_putchar (92);
-else
 _putchar (' ');
 }
+_putchar (92);
 _putchar ('\n');
 }
 }
