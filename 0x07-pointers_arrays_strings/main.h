@@ -3,7 +3,7 @@
 #include <stdio.h>
 void positive_or_negative(int i);
 void _putchar(int i);
-void0 _puts (char *str);
+void _puts (char *str);
 char *_memset(char *s, char b, unsigned int n);
 char *_memcpy(char *dest, char *src, unsigned int n);
 char *_strchr(char *s, char c);

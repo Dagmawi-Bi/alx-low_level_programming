@@ -1,15 +1,19 @@
-#include"main.h"
+#include "main.h"
 /**
- * _memcpy - copies memory area
- * @dest: destination memory
- * @src: sorce memory
- * @n: the byte to be copied
- * Return: the string copied from sorce
+ * _memcpy - fills memory with another buffer.
+ * @dest: source string
+ * @src: string for filling
+ * @n: lenght of buffer
+ * Return: new string.
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
-unsigned int a;
-for (a = 0; a < n; a++)
-dest[a] = src[a];
-return (dest);
+	unsigned int i = 0;
+
+	while (i < n)
+	{
+		*(dest + i) = *(src + i);
+		i++;
+	}
+	return (dest);
 }
